@@ -1,9 +1,9 @@
 var bgm;
 bgm = new Audio();
-bgm.src = "../music/bgm.mp3"
+bgm.src = "./music/bgm.mp3"
 var bgm_katou;
 bgm_katou = new Audio();
-bgm_katou.src = "../music/っざけんなよおおおお！！！.wav"
+bgm_katou.src = "./music/っざけんなよおおおお！！！.wav"
 
 
 function ButtonClick(){
@@ -44,7 +44,7 @@ function ButtonClick(){
         var four_score = (four_value-uma14-30000)/1000;
 
         bgm.play();
-        alert("1位：["+one_score+"]\n2位：["+two_score+"]\n3位：["+three_score+"]\n4位：["+four_score+"]");
+        alert("1位："+one_score+"\n2位："+two_score+"\n3位："+three_score+"\n4位："+four_score+"");
     }
 
 
